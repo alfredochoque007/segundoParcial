@@ -34,20 +34,22 @@
                             <label for="seminario" >Seminario</label>
                         </div>
 
-                        <label style="margin-top: 2rem">
-                            <input type="checkbox" name="confirmacion"  value="true" <c:if test="${estudiante.confirmacion}">checked</c:if>  />
-                                <span>Confirmacion</span>
-                            </label>
+                        <div style="margin-top: 1rem">
+                            <label >
+                                <input type="checkbox" name="confirmacion"  value="true" <c:if test="${estudiante.confirmacion}">checked</c:if>  />
+                                    <span>Confirmacion</span>
+                                </label>
+                            </div>
 
-                            <div style="display: flex" >
-                                <div class="input-field" style="margin-top: 2rem; display: flex">
+                            <div style="display: flex; margin-top: 2rem" >
+                                <div class="input-field">
                                     <input id="fecha" type="date" name="fecha" class="validate" value="${estudiante.fecha}">
                                 <label for="fecha" >Fecha Inscripcion</label>
                             </div>
                         </div>
 
 
-                        <input type="submit" class="waves-effect waves-light btn" />
+                        <input type="submit" class="waves-effect waves-light btn" style="margin-top: 1rem" />
 
                     </form>
                 </div> 
