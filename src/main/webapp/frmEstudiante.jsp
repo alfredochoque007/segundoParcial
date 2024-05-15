@@ -20,17 +20,17 @@
                         <form action="inicio" method="post" style="margin-top: 3rem"> 
                             <input type="hidden" name="id" value="${estudiante.id}" /> 
                         <div class="input-field">
-                            <input id="nombres" type="text" class="validate" value="${estudiante.nombres}">
+                            <input id="nombres" name="nombres" type="text" class="validate" value="${estudiante.nombres}">
                             <label for="nombres" >Nombres</label>
                         </div>
 
                         <div class="input-field" style="margin-top: 2rem">
-                            <input id="apellidos" name="nombres" type="text" class="validate" value="${estudiante.apellidos}">
+                            <input id="apellidos" name="apellidos" type="text" class="validate" value="${estudiante.apellidos}">
                             <label for="apellidos" >Apellidos</label>
                         </div>
 
                         <div class="input-field" style="margin-top: 2rem">
-                            <input id="seminarios" name="apellidos" type="text" class="validate" value="${estudiante.seminario}">
+                            <input id="seminarios" name="seminario" type="text" class="validate" value="${estudiante.seminario}">
                             <label for="seminario" >Seminario</label>
                         </div>
 
@@ -39,7 +39,7 @@
                                 <span>Confirmacion</span>
                             </label>
 
-                            <div style="display: flex">
+                            <div style="display: flex" >
                                 <div class="input-field" style="margin-top: 2rem; display: flex">
                                     <input id="fecha" type="date" name="fecha" class="validate" value="${estudiante.fecha}">
                                 <label for="fecha" >Fecha Inscripcion</label>
