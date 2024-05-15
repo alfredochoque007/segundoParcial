@@ -34,7 +34,7 @@
                                 <th>APELLIDOS</th>
                                 <th>SEMINARIO</th>
                                 <th>CONFIRMACION</th>
-                                <th>FECHA</th>
+                                <th>FECHA INSCRIPCION</th>
                                 <th></th>
                                 <th></th>
                             </tr>
